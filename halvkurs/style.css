@@ -7,24 +7,24 @@ header, footer, div{
 
 nav{
     border: 1px solid black;
-    min-height: 5vh;
+    min-height: 6vh;
     padding: 3%;
     margin: 0;
 }
 
 .img{
     border: 1px solid black;
-    min-height: 15vh;
+    min-height: 12vh;
     padding: 3%;
     margin: 0;
+    aspect-ratio: 1 / 2;
 }
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
     border: 1px solid black;
-    min-height: 25vh;
     padding: 3%;
     margin: 0;
 }
@@ -32,10 +32,6 @@ main{
 h1{
     text-align: center;
     font-size: 50px;
-}
-
-.card{
-    min-height: 15vh;
 }
 
 @media(min-width: 600px){
