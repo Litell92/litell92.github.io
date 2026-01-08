@@ -1,5 +1,10 @@
+*{
+    background-color: black;
+    color: white;
+}
+
 header, main, footer{
-    border: 1px solid black;
+    border: 1px solid rgb(107, 107, 107);
     min-height: 35vh;
     text-align: center;
     font-size: 350%
