@@ -21,7 +21,7 @@ nav{
 .imgBox img{
     border: 1px solid rgb(255, 255, 255);
     margin: 0;
-    aspect-ratio: 1 / 2;
+    aspect-ratio: 1 / 1;
     width: 100%;
     height: 100%;
     display: block;
