@@ -2,6 +2,7 @@
     font-size: large;
     background-color: #000000;
     color: white;
+    text-decoration: none;
 }
 
 header, footer, div{
@@ -29,22 +30,24 @@ nav{
 }
 
 .headerBox img{
-    aspect-ratio: 2/1;
+
     width: 100%;
     height: 100%;
-    margin: 0;
-    gap: 0;
-    padding: 0;
+    object-fit: cover;
+}
+.headerBox{
+    aspect-ratio: 2/1;
+    overflow: hidden;
 }
 
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+
 }
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
     gap: 5px;
     border: 1px solid rgb(255, 255, 255);
     padding: 3%;
@@ -53,9 +56,23 @@ main{
 
 h1{
     text-align: center;
-    font-size: 500%;
+    font-size: 1.2rem;
 }
 
 @media(min-width: 600px){
+    main{
+    
+        grid-template-columns: 1fr 1fr 1fr 1fr;
 
+    }
+
+    h1{
+    text-align: center;
+    font-size: 2rem;
+    }
+
+    .headerBox{
+        aspect-ratio: 2.5/1;
+        overflow: hidden;
+    }
 }

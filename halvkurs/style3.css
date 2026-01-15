@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: 0;
+}
+
+header{
+    min-height: 10vh;
+}
+
+.imgBox img{
+    object-fit: contain;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.imgBox{
+    width: 90%;
+}
+
+div, main h1{
+    background-color: rgb(12, 12, 12);
+}
+
+
+
