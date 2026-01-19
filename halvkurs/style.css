@@ -6,21 +6,21 @@
 }
 
 header, footer, div{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     min-height: 35vh;
     padding: 3%;
     margin: 0;
 }
 
 nav{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     min-height: 6vh;
     padding: 3%;
     margin: 0;
 }
 
 .imgBox img{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     margin: 0;
     aspect-ratio: 1 / 1;
     width: 100%;
@@ -49,7 +49,7 @@ main{
     display: grid;
    
     gap: 5px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     padding: 3%;
     margin: 0;
 }
