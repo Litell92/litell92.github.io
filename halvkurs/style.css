@@ -6,7 +6,7 @@
 }
 
 header, footer, div{
-    border: 1px solid rgb(124, 124, 124);
+    border: 1px solid rgb(255, 255, 255);
     min-height: 35vh;
     padding: 3%;
     margin: 0;
